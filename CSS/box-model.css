@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+.box1 {
+  background: yellow;
+  width: 500px;
+  height: 100px;
+  border: 10px solid black;
+  padding: 20px;
+  margin: 50px auto;
+
+}
+
+.box2 {
+  box-sizing: border-box;
+  background: pink;
+  width: 500px;
+  height: 100px;
+  border: 10px solid black;
+  padding: 20px;
+  margin: 70px auto;
+
+}
+
+
+/*  margin-top:
+  margin-right
+  margin-bottom
+  margin-left
+  시계방향으로 돌아감 
+  보더/패팅을 뺀 값을 마진으로 인식해서 자동으로 오른쪽 왼쪽에 자리를 할당
+  정렬된 것처럼 느껴지는 거지 상자의 크기가 늘어난 것임. 바깥쪽 영역이 늘어난 것.
+  투명해서 모름.
+  박스 모델을 자유롭게 다루어야 레이아웃을 잘 다룰 수 있다.
+  */
+  
+
